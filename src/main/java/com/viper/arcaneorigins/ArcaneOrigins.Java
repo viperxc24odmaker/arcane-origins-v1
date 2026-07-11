@@ -13,6 +13,7 @@ public class ArcaneOrigins implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        ModItems.Register()
         LOGGER.info("Arcane Origins has awakened!");
     }
 
